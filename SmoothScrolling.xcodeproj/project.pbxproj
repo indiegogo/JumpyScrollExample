@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		69998F0A1A708B4500E31DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998F091A708B4500E31DF8 /* AppDelegate.swift */; };
-		69998F0C1A708B4500E31DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998F0B1A708B4500E31DF8 /* ViewController.swift */; };
 		69998F0F1A708B4500E31DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69998F0D1A708B4500E31DF8 /* Main.storyboard */; };
 		69998F111A708B4500E31DF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69998F101A708B4500E31DF8 /* Images.xcassets */; };
 		69998F141A708B4500E31DF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69998F121A708B4500E31DF8 /* LaunchScreen.xib */; };
 		69998F201A708B4500E31DF8 /* SmoothScrollingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998F1F1A708B4500E31DF8 /* SmoothScrollingTests.swift */; };
+		69998F2A1A708C0D00E31DF8 /* DynamicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998F291A708C0D00E31DF8 /* DynamicCell.swift */; };
+		69998F2C1A708C7C00E31DF8 /* SmoothTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69998F2B1A708C7C00E31DF8 /* SmoothTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		69998F041A708B4500E31DF8 /* SmoothScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69998F081A708B4500E31DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69998F091A708B4500E31DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69998F0B1A708B4500E31DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69998F0E1A708B4500E31DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69998F101A708B4500E31DF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69998F131A708B4500E31DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		69998F191A708B4500E31DF8 /* SmoothScrollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothScrollingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69998F1E1A708B4500E31DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69998F1F1A708B4500E31DF8 /* SmoothScrollingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothScrollingTests.swift; sourceTree = "<group>"; };
+		69998F291A708C0D00E31DF8 /* DynamicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCell.swift; sourceTree = "<group>"; };
+		69998F2B1A708C7C00E31DF8 /* SmoothTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				69998F091A708B4500E31DF8 /* AppDelegate.swift */,
-				69998F0B1A708B4500E31DF8 /* ViewController.swift */,
 				69998F0D1A708B4500E31DF8 /* Main.storyboard */,
 				69998F101A708B4500E31DF8 /* Images.xcassets */,
 				69998F121A708B4500E31DF8 /* LaunchScreen.xib */,
 				69998F071A708B4500E31DF8 /* Supporting Files */,
+				69998F291A708C0D00E31DF8 /* DynamicCell.swift */,
+				69998F2B1A708C7C00E31DF8 /* SmoothTableViewController.swift */,
 			);
 			path = SmoothScrolling;
 			sourceTree = "<group>";
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69998F0C1A708B4500E31DF8 /* ViewController.swift in Sources */,
+				69998F2A1A708C0D00E31DF8 /* DynamicCell.swift in Sources */,
+				69998F2C1A708C7C00E31DF8 /* SmoothTableViewController.swift in Sources */,
 				69998F0A1A708B4500E31DF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
